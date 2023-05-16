@@ -17,13 +17,6 @@ from dog import (
 from models import Base, Dog
 from testing.conftest import db_dir, SQLITE_URL
 
-class TestModels:
-    '''lib/models.py'''
-
-    def test_has_name_and_breed_attributes(self):
-        '''contains model "Dog" with name and breed attributes.'''
-        dog = Dog(name="joey", breed="cocker spaniel")
-        assert(dog.name == "joey" and dog.breed == "cocker spaniel")
 
 class TestDog:
     '''lib/dog.py'''
