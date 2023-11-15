@@ -18,7 +18,7 @@
 - **Transaction**: a strategy for executing database statements such that
   the group succeeds or fails as a unit.
 - **Migration**: the process of moving data from one or more databases to one
-  or more target databases.
+  or more target databases..
   
 ***
 
